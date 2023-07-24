@@ -1,4 +1,4 @@
-package Beginning;
+package Beginning.Calculations;
 public class calculation {
     public static void main(String[] args){
         int a=10,b=12;
