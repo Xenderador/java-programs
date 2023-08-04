@@ -19,7 +19,7 @@ class MinimumAccountBalance extends Exception {
 }
 
 public class Bank_Withdraw {
-    static double current_balance = 100;
+    static double current_balance = 100; // can give any amount 
     public static void main(String[] args) throws MinimumAccountBalance{
        Scanner scan = new Scanner(System.in);
         System.out.println("Enter amount for withdrawal");
