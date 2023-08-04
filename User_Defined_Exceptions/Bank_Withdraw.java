@@ -28,9 +28,9 @@ public class Bank_Withdraw {
 
         try {
             if (current_balance < n) {
-                throw new MinimumAccountBalance(
-                        "Insufficient funds ! your Current balance is " + current_balance);
-            } else {
+                throw new MinimumAccountBalance("Insufficient funds ! your Current balance is " + current_balance);
+            }
+            else {
                 System.out.println("Please Take The Money : " + n);
             }
         } catch (MinimumAccountBalance mab) {
