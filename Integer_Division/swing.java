@@ -7,8 +7,6 @@
  * Exception in message box.
  */
 
-package Integer_Division;
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
