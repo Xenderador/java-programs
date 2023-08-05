@@ -7,7 +7,7 @@
  * each computed number.
  */
 
-package Muttiple_Thread;
+package Multiple_Thread;
 
 import java.util.Random;
 
