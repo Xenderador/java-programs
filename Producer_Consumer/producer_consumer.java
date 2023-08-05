@@ -2,7 +2,6 @@
  * Write a java program that corrects implements of producer consumer problem.
  */
 
-
 package Producer_Consumer;
 
 class Q {
