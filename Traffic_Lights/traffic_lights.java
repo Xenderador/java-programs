@@ -37,7 +37,7 @@ class Lights extends JFrame implements ItemListener {
         p1.add(l2);
 
         JRadioButton r1 = new JRadioButton("Red Light");
-        r1.setBackground(Color.red);
+        r1.setBackground(Color.RED);
         p1.add(r1);
         r1.addItemListener(this);
 
