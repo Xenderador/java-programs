@@ -84,7 +84,6 @@ class SwingEle implements ActionListener {
     }
 }
     
-
 public class swing_element {
     public static void main(String[] args){
         new SwingEle();
