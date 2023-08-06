@@ -25,7 +25,7 @@ class Student {
 }
 
 public class exception {
-    public static void amin(String[] args){
+    public static void main(String[] args){
         String name;
 		int rno;
 		Scanner s1 = new Scanner(System.in);
