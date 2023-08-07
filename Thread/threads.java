@@ -20,13 +20,13 @@ class threads extends Thread{
         threads t2 = new threads();
         t1.setPriority(Thread.MAX_PRIORITY);
         t2.setPriority(Thread.MIN_PRIORITY);
-        t0.run();
+        t0.start();
         try {
             t0.join();
         } catch (Exception e) {
             System.out.println(e);
         }
-        t1.run();
-        t2.run();
+        t1.start();
+        t2.start();
     }
 }
